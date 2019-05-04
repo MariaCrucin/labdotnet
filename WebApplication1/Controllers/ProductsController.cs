@@ -15,7 +15,8 @@ namespace WebApplication1.Controllers
     {
         private ProductsDbContext context;
 
-        public ProductsController(ProductsDbContext context) {
+        public ProductsController(ProductsDbContext context)
+        {
             this.context = context;
         }
 
